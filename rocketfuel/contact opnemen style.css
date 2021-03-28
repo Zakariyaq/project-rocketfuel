@@ -1,2 +1,21 @@
+* {
+    margin: 0; padding: 0;
+}
+  
+
+header {
+    display: grid;
+    grid-row-start: 1;
+}
+
+header img {
+    justify-content: flex-start;
+    grid-row-start: 2;
+}
+
+header nav {
+    justify-content: flex-end;
+    grid-row-end: 2;
+}
 
 
