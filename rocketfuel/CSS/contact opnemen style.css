@@ -4,15 +4,19 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
  html {
-      background-image: url("fotos/achtergrond.png");
+      background-image: url(/rocketfuel/fotos/achtergrond.png);
       background-size: cover;
       background-repeat: no-repeat;
    }
- 
+body {
+    width: 100vw;
+    height: 100vh;
+  
+} 
 
 header {
     width: 95vw;
-    height: 10vh;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,20 +33,65 @@ header article img {
     align-items: flex-start ;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     flex: 1;
     list-style: none;
+
 }
 
-header nav ul li{
-    padding: .5vh .5vw;
+header nav ul li {
+    padding: .5vh 1vw;
     font-size: 1.5rem;
 }
+
+header nav ul li a{
+    height: 1vh;
+}
 main {
-    color: white;
+    position: relative;
+    top: 5vh;
+    left: 60vh;
+    display: flex;
+    flex-direction: row;
+    background-color: wheat;
+    width: 65vw;
+    height: 45vh;
+    
+}
+input {
+   width: 20vw;
+   height: 5vh;
 }
 
+select {
+    width: 15vw;
+    height: 5vh;
+}
+main article {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.zend{
+    position: relative;
+    left: -60vh;
+}
+  .middle {
+    padding: .5vh .5vw;
+  }
 
+  .middle2 {
+    padding: .5vh .5vw;
+  }
+  .middle3 {
+    padding: .5vh .5vw;
+  }
+
+  footer{
+      position: relative;
+      top: 20vh;
+     left: 60vh;
+  }
