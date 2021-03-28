@@ -1,0 +1,48 @@
+* {
+    margin: 0; padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+ html {
+      background-image: url("fotos/achtergrond.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+ 
+
+header {
+    width: 95vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header article {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+header article img {
+    width: 10vw;
+    align-items: flex-start ;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex: 1;
+    list-style: none;
+}
+
+header nav ul li{
+    padding: .5vh .5vw;
+    font-size: 1.5rem;
+}
+main {
+    color: white;
+}
+
+
