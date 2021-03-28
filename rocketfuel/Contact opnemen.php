@@ -15,31 +15,30 @@ if(isset($_GET['voornaam']))
 }
 ?>
 
-<body>
-   <header>
-       <img src="foto/logo.png" alt="logo">
-       <nav id="taakbalk">
-           <ul>
-        <li>Home</li>
-        <li>Aanbiedingen</li>
-        <li>Onze Producten</li>
-        <li>De nieuwe opkomende smaken</li>
-        <li>FAQ</li>
-        <li>Contact opnemen</li>
-</ul>
-</nav>
-    </header>
-   <main class="kern">
-<h2>
-    als je vragen hebt of meer informatie nodig hebt.
-    je kan ons contacteren via die formulier hieronder
-</h2>
- <p> Contact opnemen:____________________________;</p>
 
-    
-   
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
