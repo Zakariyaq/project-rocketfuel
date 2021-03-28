@@ -5,25 +5,27 @@
       src: url(fotos/achtergrond.png);
       background-size:cover;
       background-repeat: no-repeat;
-     
    }
  
 
 header {
-    display: grid;
+    display: flex;
+    flex-direction: row;
 }
 
 header img {
-    grid-row-start: 2;
+    justify-content: flex-start;
+    align-items: flex-start;
     
 }
 
 header nav {
-    grid-row-end: 2;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 main {
-
+ align-items: center;
 }
 
 
