@@ -10,25 +10,23 @@
 </head>
 
 <header>
-       <img src="foto/logo.png" alt="logo">
+       <img id="foto1" src="fotos/logo1.png" alt="logo">>
        <nav id="taakbalk">
            <ul>
         <li>Home</li>
         <li>Aanbiedingen</li>
         <li>Onze Producten</li>
-        <li>De nieuwe opkomende smaken</li>
+        <li>De nieuwe smaken</li>
+        <li>Evenementen</li>
+        <li>Artiesten</li>
+        <li>Locaties</li>
         <li>FAQ</li>
         <li>Contact opnemen</li>
 </ul>
 </nav>
 </header>
-<?php
-if(isset($_GET['voornaam']))
-{
-    echo $_GET['voornaam']."<br/>"
-}
-?>
-   <main class="kern">
+ <main class="kern">
+  
  <h2>  
     Als je vragen hebt of meer informatie nodig hebt.
     <br>
