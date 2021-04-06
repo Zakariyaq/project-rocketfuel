@@ -26,16 +26,12 @@
 </nav>
 </header>
  <main class="kern">
-  
- <h2>  
-    Als je vragen hebt of meer informatie nodig hebt.
-    <br>
-    je kan ons contacteren via die formulier hieronder
-</h2>
- <p> Contact opnemen:____________________________;</p>
-
-
-   
+<?php
+if(isset($_GET['voornaam']))
+{
+    echo $_GET['voornaam']."<br/>"
+}
+?>
 </body>
 <body>
 

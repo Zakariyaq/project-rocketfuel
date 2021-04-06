@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
  html {
-      background-image: url(/rocketfuel/fotos/achtergrond.png);
+      background-image: url(/fotos/achtergrond.png);
       background-size: cover;
       background-repeat: no-repeat;
    }
