@@ -1,0 +1,9 @@
+* {
+    margin: 0; padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+html {
+     background-image: url(/fotos/achtergrond.png);
+     background-size: cover;
+     background-repeat: no-repeat;
